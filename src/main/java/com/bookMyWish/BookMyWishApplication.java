@@ -1,4 +1,4 @@
-package com.bookMyWish.BookMyWish;
+package com.bookMyWish;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

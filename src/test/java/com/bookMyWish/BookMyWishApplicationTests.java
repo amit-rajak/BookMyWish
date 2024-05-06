@@ -1,4 +1,4 @@
-package com.bookMyWish.BookMyWish;
+package com.bookMyWish;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
