@@ -24,7 +24,7 @@ public class MovieServiceImpl  implements MovieService {
 
 
         String userId= UUID.randomUUID().toString();
-        movieDto.setId(userId);
+        movieDto.setMovieId(userId);
         //dto->entity
         Movie movie=dtoToEntity(movieDto);
         Movie savedMovie= movieReopsitory.save(movie);

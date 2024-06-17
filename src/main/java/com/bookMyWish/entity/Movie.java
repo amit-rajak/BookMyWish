@@ -10,7 +10,7 @@ import org.springframework.boot.autoconfigure.domain.EntityScan;
 @AllArgsConstructor
 @Builder
 @Entity
-@Table(name="users")
+@Table(name="movies")
 public class Movie {
     @Id
     private String movieId;
