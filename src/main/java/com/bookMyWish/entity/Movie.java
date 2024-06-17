@@ -13,7 +13,7 @@ import org.springframework.boot.autoconfigure.domain.EntityScan;
 @Table(name="users")
 public class Movie {
     @Id
-    private String id;
+    private String movieId;
     private String title;
     private String genre;
     private int year;
